@@ -11,9 +11,9 @@ public class deque {
 	public void test1() {
 		
 		Deque<String> deque = new ArrayDeque<String>();
-		deque.add("Gautam");
-		deque.add("Karan");
-		deque.add("Ajay");
+		deque.add("Demo");
+		deque.add("RandomValue");
+		deque.add("TestingWithRandomValue");
 		//Traversing elements
 		for (String str : deque) {
 		System.out.println(str);
