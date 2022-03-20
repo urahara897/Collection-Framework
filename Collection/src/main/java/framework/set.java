@@ -1,6 +1,7 @@
 package framework;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 //import java.util.HashSet;
 import java.util.Set;
 import java.util.TreeSet;
@@ -72,6 +73,26 @@ public class set {
 			System.out.println(i);
 			
 		}
+		
+	}
+	
+	@Test(priority = 5)
+	public void test5() {
+		
+		
+		Set<Integer> values = new LinkedHashSet<>();
+		System.out.println("Linked Hash Set");
+		System.out.println(values.add(87));
+		System.out.println(values.add(97));
+		System.out.println(values.add(34));
+		System.out.println(values.add(92));
+		for(int i : values)
+		{
+			
+			System.out.println(i);
+			
+		}
+		
 		
 	}
 	
